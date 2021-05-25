@@ -1,0 +1,14 @@
+spring:
+    debug: true
+    jpa:
+        show-sql: true
+    logging:
+        level:
+            org.hibernate.SQL: DEBUG
+            org.springframework: DEBUG
+            com.fasterxml: DEBUG
+    h2:
+        console:
+            enabled: true
+            
+debug: true
