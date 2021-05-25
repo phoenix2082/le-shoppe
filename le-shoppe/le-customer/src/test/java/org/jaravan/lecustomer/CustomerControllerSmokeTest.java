@@ -10,8 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * Check if CustomerController is actually created when
  * application starts.
- * 
- * @author jayant
  *
  */
 @SpringBootTest

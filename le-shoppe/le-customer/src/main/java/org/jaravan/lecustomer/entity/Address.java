@@ -17,10 +17,6 @@ import javax.validation.constraints.NotBlank;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * @author jayant
- *
- */
 @Entity
 @JsonIgnoreProperties(ignoreUnknown = true)
 public final class Address implements Serializable {

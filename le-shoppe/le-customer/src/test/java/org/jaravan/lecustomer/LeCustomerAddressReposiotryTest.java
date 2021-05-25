@@ -21,8 +21,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.repository.config.BootstrapMode;
 
 /**
- * @author jayant
- *
  */
 @EnableJpaRepositories(basePackages = {"org.jaravan.lecustomer"})
 @DataJpaTest(bootstrapMode = BootstrapMode.DEFAULT)
